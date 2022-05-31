@@ -13,3 +13,4 @@ elif int(n[-1]) > 5 and number > 0:
     print(f"Last digit of {number} is {int(n[-1])} and is greater than 5")
 else:
     print(f"Last digit of {number} is {int(n[-1])} and is 0")
+
