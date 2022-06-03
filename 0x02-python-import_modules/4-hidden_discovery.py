@@ -1,9 +1,10 @@
-
 #!/usr/bin/python3
+def main():
+    import hidden_4 as hid
+    for method in dir(hid):
+        if method[0] != '_' and method[1] != '_':
+            print(method)
+
 
 if __name__ == "__main__":
-    import hidden_4
-    names = dir(hidden_4)
-    for name in names:
-        if name[:2] != "__":
-            print(name)
+    main()
