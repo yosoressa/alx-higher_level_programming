@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-def print_reversed_list_integer(my_list=[]):
-    if (my_list):
-        lent = len(my_list)
-        while lent > 0:
-            print("{:d}".format(my_list[lent - 1]))
-            lent -= 1
+def replace_in_list(my_list, idx, new_element):
+    if idx >= 0 and idx < len(my_list):
+        my_list[idx] = new_element
+    return my_list
